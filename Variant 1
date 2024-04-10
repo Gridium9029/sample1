@@ -1,0 +1,12 @@
+input numpy as np
+a = np.zeros((12,12))
+int i =1
+int j = 1
+while i < 13: 
+  while j < 13:
+    x = i * j
+      a[i,j] = x
+      i+=1
+      j+=1
+
+print(a)
